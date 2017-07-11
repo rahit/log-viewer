@@ -1,0 +1,4 @@
+<FilesMatch "^Dockerfile|(\.(yml))$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

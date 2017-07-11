@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+}
+
+#log-display-panel {
+    margin: 15px 1%;
+}
+
+table {
+    width: 100%;
+}
+
+.log-item {
+    border: 1px solid rgb(173, 71, 24);
+}
+
+.log-line {
+    background: rgb(168, 35, 14);
+    color: #ffffff;
+    padding: 20px;
+}
+
+.log-desc {
+    padding: 1%;
+    font-weight: normal;
+    font-family: Courier New;
+    color: #000000;
+}

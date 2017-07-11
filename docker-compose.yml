@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build: .
+    container_name: logviewer
+    ports:
+      - "8383:80"
+    volumes:
+      - .:/var/www/html/
